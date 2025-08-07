@@ -5,30 +5,24 @@ let router = express.Router();
 const pino = require("pino");
 const { Boom } = require("@hapi/boom");
 const MESSAGE = process.env.MESSAGE || `
-*SESSION GENERATED SUCCESSFULY* ✅
+𝗣𝗔𝗜𝗥 𝗖𝗢𝗗𝗘 𝗖𝗢𝗡𝗡𝗘𝗖𝗧𝗘𝗗 𝗦𝗨𝗖𝗖𝗘𝗦𝗦𝗙𝗨𝗟𝗟𝗬 
+ 𝐨𝐟  ⚡ 𝐃𝐄𝐍𝐊𝐈 𝐌𝐃 ⚡ 
 
-*Gɪᴠᴇ ᴀ ꜱᴛᴀʀ ᴛᴏ ʀᴇᴘᴏ ꜰᴏʀ ᴄᴏᴜʀᴀɢᴇ* 🌟
-https://github.com/Tohidkhan6332/TOHID-AI
+╔═════『 𝗩𝗜𝗦𝗜𝗧 𝗙𝗢𝗥 𝗛𝗘𝗟𝗣 』══════❒
+║❒ 𝗢𝗪𝗡𝗘𝗥 : https://wa.me/2250143875869
+║❒ 𝗥𝗘𝗣𝗢 : https://github.com/denki-arch/DENKI-MD
+║❒ 𝗚𝗥𝗢𝗨𝗣  𝗦𝗨𝗣𝗣𝗢𝗥𝗧 : https://chat.whatsapp.com/G6NnBdm9ZnvBCqy0OHi4It?mode=ac_t
+║❒ 𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 :
+║https://t.me/denkitech_hub 
+║
+║❒ 𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 :
+ https://whatsapp.com/channel/0029VbB06qE9sBIFlu00Dq0R 
+║𝗧𝗛𝗔𝗡𝗞𝗦 𝗧𝗢 : 
+║DYBYTECH
+║ZEPHYR
+╚══════════════════════════❒
 
-*Tᴇʟᴇɢʀᴀᴍ Gʀᴏᴜᴘ* 🌟
-https://t.me/Tohid_Tech
-
-*WʜᴀᴛsAᴘᴘ Gʀᴏᴜᴘ* 🌟
-https://chat.whatsapp.com/IqRWSp7pXx8DIMtSgDICGu
-
-*WʜᴀᴛsAᴘᴘ ᴄʜᴇɴɴᴀʟ* 🌟
-https://whatsapp.com/channel/0029VaGyP933bbVC7G0x0i2T
-
-*Yᴏᴜ-ᴛᴜʙᴇ ᴛᴜᴛᴏʀɪᴀʟꜱ* 🌟 
-https://youtube.com/Tohidkhan_6332
-
-*ɢɪᴛʜᴜʙ* 🌟
-http://GitHub.com/Tohidkhan6332
-
-*Wᴇʙsɪᴛᴇ* 🌟
-https://tohid-khan-web.vercel.app/
-
-*TOHID-AI--WHATTSAPP-BOT* 🥀
+> *© Powered BY 𝑫𝑬𝑵𝑲𝑰 ᴰᴱᵛ*
 `;
 
 const { upload } = require('./mega');
